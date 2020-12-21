@@ -1,0 +1,143 @@
+table,
+th,
+td {
+    border: 1px solid #444444;
+    border-collapse: collapse;
+    width: 30rem;
+    margin: 0 auto
+}
+
+th{
+    height: 3.5rem;
+    font-size: 1.75rem;
+    font-weight: 400;
+}
+td{
+    font-size: 1.15rem;
+    text-align: center;
+}
+td a {
+    color: #222222;
+}
+td a:hover {
+    color: #C3001A;
+}
+.table-img{
+    width: 100%;
+    height: 11rem;
+}
+
+.zaideju-news {
+    width: 12rem;
+    margin: 0.5rem 1rem 0.5rem 0;
+    max-height: 32.5rem;
+    overflow: hidden;
+    background-color: #C3001A;
+}
+
+.zaidejos-reklama {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.zaidejos-reklama div {
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    animation-name: spin;
+    animation-duration: 10000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.snow__top_left {
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+.snow__top_right {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    transform: rotateY(45deg);
+}
+
+.snow__bottom_left {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1rem;
+    transform: rotateY(45deg);
+}
+
+.snow__bottom_right {
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1rem;
+}
+
+.zaidejos-reklama div i {
+    font-size: 2.5rem;
+}
+
+.reklama-text {
+    color: #fff;
+    font-size: 2.25rem;
+    width: 15rem;
+    position: absolute;
+    top: 37.5%;
+    right: -15%;
+    transform: rotate(305deg);
+    text-transform: uppercase;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.main-news {
+    cursor: auto !important;
+}
+.zaidejos-header{
+    font-size: 2.25rem !important;
+    line-height: 2.25rem !important;
+    padding: 0.5rem 0;
+}
+
+.span__right{
+    display:table;
+    margin-left: auto;
+    padding-bottom: 0.5rem;
+    font-size: 0.6rem;
+    opacity: 0.9;
+}
+.hr{
+    margin: 0.5rem 0 1.5rem;
+    opacity: 0.5;
+}
+.zaidejos-text{
+    padding: 0 0 1rem;
+    opacity: 1 !important;
+    font-size: 1.1rem !important;
+    font-weight: 300 !important;
+    line-height: 1.25rem;
+}
+.font{
+    font-size: 1rem;
+    padding: 0.5rem;
+    color: #006faf;
+}
+.font:hover{
+    color: #C3001A;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+}
